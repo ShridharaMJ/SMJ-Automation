@@ -18,7 +18,7 @@ driver=new ChromeDriver();
 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 driver.manage().window().maximize() ;
 
-driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+//driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
 	
 }
 @AfterMethod
